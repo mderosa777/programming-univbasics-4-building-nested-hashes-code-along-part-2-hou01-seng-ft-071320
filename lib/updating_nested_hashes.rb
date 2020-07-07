@@ -17,10 +17,10 @@ def update_status
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
-      }
+      }}
       :additional_characters =>[{name: "Prince Escalus"}{name:"Apothecary"}]
       epic_tragedy[:additional_characters]<< Prince epic_tragedy[:additional_characters]<<Apothecary
-   }
+   
 
   epic_tragedy[:montague][:hero][:status]="dead"
   epic_tragedy[:capulet][:heroine][:status]="dead"
